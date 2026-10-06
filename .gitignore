@@ -1,0 +1,6 @@
+build/
+build-test/
+releases/
+__pycache__/
+# Research: IDA databases, decompiled game code and live captures stay local, never in the repository.
+research/
