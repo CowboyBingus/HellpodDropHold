@@ -1,4 +1,4 @@
-# Hellpod Drop Hold v1.2
+# Hellpod Drop Hold v1.2.1
 
 Joining a mission in progress, or loading slowly, no longer costs you the drop. Your hellpod waits in the sky
 until your loading screen, and the join cutscene after it, are gone. It is already falling when you see it, like a
@@ -43,7 +43,7 @@ missions and 0.003 on the ship.
 - `tests/`: offline checks on synthetic memory with exact per-frame call budgets, and the package check.
 - `scripts/`: build and packaging. `python -B scripts/build.py` runs the tests in LuaJIT and in the game's own
   `lua51.dll` (`HD2_LUA51_DLL` if the game is not in the default Steam folder; the game is never started) and
-  builds `releases/Hellpod-Drop-Hold-v1.2.zip`. It needs the installed game (`HD2_GAME_ROOT` if not in the
+  builds `releases/Hellpod-Drop-Hold-v1.2.1.zip`. It needs the installed game (`HD2_GAME_ROOT` if not in the
   default Steam folder), LuaJIT (`HD2_LUAJIT`) and `hd2-patch-inspect` (`HD2_PATCH_INSPECT`, from
   [Better Stratagem Bounce](https://github.com/CowboyBingus/BetterStratagemBounce)) to check the archive.
 

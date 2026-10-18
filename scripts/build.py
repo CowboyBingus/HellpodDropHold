@@ -23,7 +23,7 @@ GAME_LUA = TESTS / 'game_lua.py'
 # Local copies that must stay byte-identical to the workspace's canonical ones (checked when present).
 CANONICAL = {'tests/frame_budget.lua': 'PerformanceBaseline/frame_budget.lua',
              'tests/game_lua.py': 'PerformanceBaseline/game_lua.py'}
-VERSION = '1.2'
+VERSION = '1.2.1'
 MODULE = 'mods/cowboybingus/hellpod_drop_hold'
 GUID = '6c5b0317-3dc7-4cb6-88d0-0cd3d5c01461'
 TEST_GUID = '2ade80d6-1545-47e4-b7a8-ff43db3aff8b'

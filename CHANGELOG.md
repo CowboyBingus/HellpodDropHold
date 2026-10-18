@@ -1,3 +1,7 @@
+# v1.2.1
+
+- The mod's per-frame code no longer makes the game's Lua compiler retry compiling it every frame; such retries from many mods kept the game recompiling indefinitely.
+
 # v1.2
 
 - First public release.

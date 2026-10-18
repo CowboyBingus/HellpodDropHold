@@ -166,7 +166,7 @@ them before changing the signals.
 
 ## Test builds
 
-`python -B scripts/build.py --test-hold 5` builds `Hellpod-Drop-Hold-TEST-BUILD-v1.2.zip`, under its own manager
+`python -B scripts/build.py --test-hold 5` builds `Hellpod-Drop-Hold-TEST-BUILD-v1.2.1.zip`, under its own manager
 GUID. It holds every own drop pod for 5 s, loading screen or not, so the hold can be checked in solo play at
 mission start or on a reinforcement. Never publish it.
 
